@@ -1,7 +1,7 @@
 - 1 [概述](https://github.com/lipangit/JieCaoVideoPlayer/wiki#1)
 
 - 2 [API](https://github.com/lipangit/JieCaoVideoPlayer/wiki/API)
-    - 2.2
+
 - 功能定位
     - 3.3
 
