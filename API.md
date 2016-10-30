@@ -49,6 +49,6 @@ protected void onPause() {
 
     setUp之后设置looping = true
 
-> 如何取得视频播放的相关状态
+> DEMO中MainActivity的MyJCBuriedPointStandard类
 
-    继承JCVideoPlayerStandard，复写相关函数取得相关状态
+    这是埋点统计用来记录用户的事件，这里只记录事件，尽量不要将播放逻辑写到这里
