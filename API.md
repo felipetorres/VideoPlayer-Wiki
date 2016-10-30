@@ -1,7 +1,7 @@
 > 代码播放视频
 
 ```java
-jcVideoPlayer.startButton.performClick();//模拟用户点击开始按钮，NORMAL状态下点击是播放，播放中点击是暂停
+jcVideoPlayer.startButton.performClick();//模拟用户点击开始按钮，NORMAL状态下点击开始播放视频，播放中点击暂停视频
 ```
 
 > 直接进入全屏
