@@ -40,3 +40,15 @@ protected void onPause() {
 ```
 请先拷贝到本地路径再播放
 ```
+
+> 点击开始播放直接跳转到某个进度
+
+    setUp之后设置seekToInAdvance变量设置进度，用户点击之后会自动跳转到此进度
+
+> 循环播放
+
+    setUp之后设置looping = true
+
+> 如何取得视频播放的相关状态
+
+    继承JCVideoPlayerStandard，复写相关函数取得相关状态
