@@ -35,6 +35,7 @@ protected void onPause() {
 ```
 
 > 播放Assets文件夹下的视频
+
 [亲测](https://github.com/Bilibili/ijkplayer/issues/1013)如果直接传参数IMediaDataSource,只停留在第一帧画面上并且后台会报错
 ```
 请先拷贝到本地路径再播放
