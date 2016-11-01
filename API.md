@@ -52,3 +52,9 @@ protected void onPause() {
 > DEMO中MainActivity的MyJCBuriedPointStandard类
 
     这是埋点统计用来记录用户的事件，这里只记录事件，尽量不要将播放逻辑写到这里
+
+> ToolBar和Actionbar显示隐藏的问题
+
+    JCVideoPlayer.ACTION_BAR_EXIST
+    JCVideoPlayer.TOOL_BAR_EXIST
+    可以通过这两个变量手动控制是否隐藏ToolBar和ActionBar
