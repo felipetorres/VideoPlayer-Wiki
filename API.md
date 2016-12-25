@@ -58,3 +58,8 @@ protected void onPause() {
     JCVideoPlayer.ACTION_BAR_EXIST
     JCVideoPlayer.TOOL_BAR_EXIST
     可以通过这两个变量手动控制是否隐藏ToolBar和ActionBar
+
+> 设置宽高比例
+
+    jcVideoPlayer.widthRatio = 16;
+    jcVideoPlayer.heightRatio = 9;
