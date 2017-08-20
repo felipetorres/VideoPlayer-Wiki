@@ -49,3 +49,15 @@ protected void onPause() {
 
 - backPress函数判断了点击回退按钮的相应，如果全屏会退出全屏播放，如果不是全屏则会交给Activity
 - 当Activity的生命周期进入onPause之后会releaseAllVideos，因为我们设定当用户退出当前Activity或者按Home键之后会视频就会release。也可以参照网上朋友给的[代码](https://github.com/lipangit/JieCaoVideoPlayer/issues/1122#issuecomment-321146486)，退出之后还能继续播放。
+
+5. 包含控件的Activity在Manifest中的设置
+
+```java
+<activity
+    android:name=".MainActivity"
+    android:configChanges="orientation|screenSize|keyboardHidden"
+    android:screenOrientation="portrait" /> <!-- or android:screenOrientation="landscape"-->
+```
+- android:configChanges 保证了在全屏的时候横竖屏切换不会执行Activity的相关生命周期，打断视频的播放
+- android:screenOrientation 固定了屏幕的初始方向，可以参照demo中JCVideoPlayer.FULLSCREEN_ORIENTATION和JCVideoPlayer.NORMAL_ORIENTATION两个变量的使用，这两个变量控制全屏后和退出全屏的屏幕方向
+
