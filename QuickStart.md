@@ -52,7 +52,7 @@ protected void onPause() {
 
 5. 包含控件的Activity在Manifest中的设置
 
-```java
+```xml
 <activity
     android:name=".MainActivity"
     android:configChanges="orientation|screenSize|keyboardHidden"
