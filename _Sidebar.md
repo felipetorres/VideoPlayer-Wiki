@@ -1,4 +1,4 @@
-- 1 [概述](https://github.com/lipangit/JieCaoVideoPlayer/wiki#1)
+- 1 [首页](https://github.com/lipangit/JieCaoVideoPlayer/wiki#1)
 
 - 2 [API](https://github.com/lipangit/JieCaoVideoPlayer/wiki/API)
 
