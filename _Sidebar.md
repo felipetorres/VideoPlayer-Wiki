@@ -2,7 +2,7 @@
 
 [基本功能](https://github.com/lipangit/JieCaoVideoPlayer/wiki/API)
 
-- 1 QuickStart
+- 1 [QuickStart](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart)
 - 2 列表播放
 - 3 小窗播放
 - 4 
