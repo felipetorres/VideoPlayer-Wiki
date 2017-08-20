@@ -8,7 +8,7 @@ compile 'fm.jiecao:jiecaovideoplayer:5.8.1'
 
 2. 添加布局
 
-```gradle
+```xml
 <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
     android:id="@+id/videoplayer"
     android:layout_width="match_parent"
