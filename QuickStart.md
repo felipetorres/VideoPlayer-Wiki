@@ -50,6 +50,8 @@ protected void onPause() {
 - backPress函数判断了点击回退按钮的相应，如果全屏会退出全屏播放，如果不是全屏则会交给Activity
 - 当Activity的生命周期进入onPause之后会releaseAllVideos，因为我们设定当用户退出当前Activity或者按Home键之后会视频就会release。也可以参照网上朋友给的[代码](https://github.com/lipangit/JieCaoVideoPlayer/issues/1122#issuecomment-321146486)，退出之后还能继续播放。
 
+这些代码只需要在Activity的生命周期使用，如果是Fragment和ViewPaver等嵌套，不需要复写Fragment的onPause函数，也只需要复写包含播放控件的Fragment的Activity的onPause和onBackPressed函数。
+
 #### 5. 包含控件的Activity在Manifest中的设置
 
 ```xml
