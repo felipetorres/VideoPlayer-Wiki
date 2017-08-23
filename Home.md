@@ -12,10 +12,11 @@
 ## 工作分流
 
 * 群管理，管理和群有关的一切事情
-* issue管理
   * [熊晓清](http://blog.csdn.net/yaya_xiong) QQ:137048616
   * [Lionet](https://github.com/Lionet6?tab=repositories) QQ:2950527715
   * [montauk](https://github.com/hanmeimei888) QQ:958489121
+  * [张展硕]() QQ:229431468
+* issue管理
 * wiki整理
 * 问题整理
 * 难点调研
