@@ -13,6 +13,8 @@
 
 * 群管理，管理和群有关的一切事情
 * issue管理
+  * [熊晓清](http://blog.csdn.net/yaya_xiong)
+
 * wiki整理
 * 问题整理
 * 难点调研
