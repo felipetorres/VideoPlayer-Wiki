@@ -13,7 +13,8 @@
 
 * 群管理，管理和群有关的一切事情
 * issue管理
-  * [熊晓清](http://blog.csdn.net/yaya_xiong)
+  * [熊晓清](https://github.com/XXiaoQing) 博客:http://blog.csdn.net/yaya_xiong QQ:137048616 微信:xxq137048616
+  * [Lionet](https://github.com/Lionet6?tab=repositories) QQ:2950527715 微信:llh941111
 
 * wiki整理
 * 问题整理
