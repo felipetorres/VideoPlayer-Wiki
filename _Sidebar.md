@@ -23,6 +23,10 @@
 [自定义](https://github.com/lipangit/JieCaoVideoPlayer/wiki/自定义UI)
 
 - [自定义代码](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81)
+  
+  -[重要的事情说三遍](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81#%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E6%83%85%E8%AF%B4%E4%B8%89%E9%81%8D)
+  -[继承JCVideoPlayerStandard复写的函数](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81#%E7%BB%A7%E6%89%BFjcvideoplayerstandard%E5%A4%8D%E5%86%99%E7%9A%84%E5%87%BD%E6%95%B0)
+
 - [自定义代码示例](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
 - 自定义UI
 
