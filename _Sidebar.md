@@ -10,6 +10,6 @@
 [自定义](https://github.com/lipangit/JieCaoVideoPlayer/wiki/自定义UI)
 
 - 自定义UI
-- 自定义功能
+- 自定义代码
 
 [常见问题](https://github.com/lipangit/JieCaoVideoPlayer/wiki/常见问题)
