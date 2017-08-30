@@ -10,9 +10,6 @@
   - [设置Activity](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#4-%E5%9C%A8%E5%8C%85%E5%90%AB%E6%92%AD%E6%94%BE%E6%8E%A7%E4%BB%B6%E7%9A%84activity%E4%B8%AD%E5%8A%A0%E5%85%A5%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81)
   - [设置Manifest](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#5-%E5%8C%85%E5%90%AB%E6%8E%A7%E4%BB%B6%E7%9A%84activity%E5%9C%A8manifest%E4%B8%AD%E7%9A%84%E8%AE%BE%E7%BD%AE)
 
-- [API]()
-  - [A1]()
-
 - [列表播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE)
   
   - [ListView普通列表](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#1-listview%E6%99%AE%E9%80%9A%E5%88%97%E8%A1%A8%E5%8F%82%E8%80%83demo%E7%9A%84videolistadapterjava)
@@ -22,6 +19,9 @@
 
 - [小窗播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%B0%8F%E7%AA%97%E6%92%AD%E6%94%BE)
 - [直接全屏播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E7%9B%B4%E6%8E%A5%E5%85%A8%E5%B1%8F%E6%92%AD%E6%94%BE)
+
+- [API]()
+  - [A1]()
 
 [自定义](https://github.com/lipangit/JieCaoVideoPlayer/wiki/自定义UI)
 
