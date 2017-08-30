@@ -9,7 +9,7 @@
 
 [自定义](https://github.com/lipangit/JieCaoVideoPlayer/wiki/自定义UI)
 
-- 自定义代码
+- [自定义代码](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81)
 - 自定义UI
 
 [常见问题](https://github.com/lipangit/JieCaoVideoPlayer/wiki/常见问题)
