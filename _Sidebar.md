@@ -3,6 +3,7 @@
 [基本功能](https://github.com/lipangit/JieCaoVideoPlayer/wiki/API)
 
 - [QuickStart](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart)
+
   - [gradle引用](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#1-%E6%B7%BB%E5%8A%A0gradle%E5%BC%95%E7%94%A8)
   - [添加布局](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#2-%E6%B7%BB%E5%8A%A0%E5%B8%83%E5%B1%80)
   - [setUp](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#3-%E8%AE%BE%E7%BD%AE%E8%A7%86%E9%A2%91%E5%9C%B0%E5%9D%80%E7%BC%A9%E7%95%A5%E5%9B%BE%E5%9C%B0%E5%9D%80%E6%A0%87%E9%A2%98)
@@ -10,11 +11,11 @@
   - [设置Manifest](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#5-%E5%8C%85%E5%90%AB%E6%8E%A7%E4%BB%B6%E7%9A%84activity%E5%9C%A8manifest%E4%B8%AD%E7%9A%84%E8%AE%BE%E7%BD%AE)
 
 - [列表播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE)
-  - []()
-  - []()
-  - []()
-  - []()
-  - []()
+  
+  - [ListView普通列表](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#1-listview%E6%99%AE%E9%80%9A%E5%88%97%E8%A1%A8%E5%8F%82%E8%80%83demo%E7%9A%84videolistadapterjava)
+  - [Fragment+ViewPager+ListView](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#2-fragment--viewpager--listview%E7%9A%84%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE%E5%8F%82%E8%80%83demo%E7%9A%84listviewviewpageractivityjava)
+  - [MultiHolder+ListView](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#3-multiholder--listview%E7%9A%84%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE%E5%8F%82%E8%80%83demo%E7%9A%84listviewmultiholderactivityjava)
+  - [RecycleView](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#4-recycleview%E7%9A%84%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE%E5%8F%82%E8%80%83demo%E7%9A%84recyclerviewvideoadapterjava)
 
 - [小窗播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%B0%8F%E7%AA%97%E6%92%AD%E6%94%BE)
 - [直接全屏播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E7%9B%B4%E6%8E%A5%E5%85%A8%E5%B1%8F%E6%92%AD%E6%94%BE)
