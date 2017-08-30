@@ -3,7 +3,10 @@
 [基本功能](https://github.com/lipangit/JieCaoVideoPlayer/wiki/API)
 
 - [QuickStart](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart)
+  - [gradle引用](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#1-%E6%B7%BB%E5%8A%A0gradle%E5%BC%95%E7%94%A8)
+  - [添加布局](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#2-%E6%B7%BB%E5%8A%A0%E5%B8%83%E5%B1%80)
 - [列表播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE)
+
 - [小窗播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%B0%8F%E7%AA%97%E6%92%AD%E6%94%BE)
 - [直接全屏播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E7%9B%B4%E6%8E%A5%E5%85%A8%E5%B1%8F%E6%92%AD%E6%94%BE)
 
