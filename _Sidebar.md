@@ -9,6 +9,7 @@
   - [setUp](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#3-%E8%AE%BE%E7%BD%AE%E8%A7%86%E9%A2%91%E5%9C%B0%E5%9D%80%E7%BC%A9%E7%95%A5%E5%9B%BE%E5%9C%B0%E5%9D%80%E6%A0%87%E9%A2%98)
   - [设置Activity](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#4-%E5%9C%A8%E5%8C%85%E5%90%AB%E6%92%AD%E6%94%BE%E6%8E%A7%E4%BB%B6%E7%9A%84activity%E4%B8%AD%E5%8A%A0%E5%85%A5%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81)
   - [设置Manifest](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#5-%E5%8C%85%E5%90%AB%E6%8E%A7%E4%BB%B6%E7%9A%84activity%E5%9C%A8manifest%E4%B8%AD%E7%9A%84%E8%AE%BE%E7%BD%AE)
+
   - [API]()
     - [A1]()
 
