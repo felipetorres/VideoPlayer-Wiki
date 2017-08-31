@@ -12,7 +12,7 @@
 
 - [列表播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE)
   
-  - [ListView普通列表](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#1-listview%E6%99%AE%E9%80%9A%E5%88%97%E8%A1%A8%E5%8F%82%E8%80%83demo%E7%9A%84videolistadapterjava)
+  - [ListView](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#1-listview%E6%99%AE%E9%80%9A%E5%88%97%E8%A1%A8%E5%8F%82%E8%80%83demo%E7%9A%84videolistadapterjava)
   - [Fragment+ViewPager+ListView](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#2-fragment--viewpager--listview%E7%9A%84%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE%E5%8F%82%E8%80%83demo%E7%9A%84listviewviewpageractivityjava)
   - [MultiHolder+ListView](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#3-multiholder--listview%E7%9A%84%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE%E5%8F%82%E8%80%83demo%E7%9A%84listviewmultiholderactivityjava)
   - [RecycleView](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#4-recycleview%E7%9A%84%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE%E5%8F%82%E8%80%83demo%E7%9A%84recyclerviewvideoadapterjava)
