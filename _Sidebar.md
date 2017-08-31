@@ -31,6 +31,6 @@
   - [继承JCVD复写的函数](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81#%E7%BB%A7%E6%89%BFjcvideoplayerstandard%E5%A4%8D%E5%86%99%E7%9A%84%E5%87%BD%E6%95%B0)
 
 - [自定义代码示例](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
-- [自定义UI](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89UI/_edit)
+- [自定义UI](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89UI)
 
 [常见问题](https://github.com/lipangit/JieCaoVideoPlayer/wiki/常见问题)
