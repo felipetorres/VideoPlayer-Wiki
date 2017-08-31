@@ -16,9 +16,9 @@
 
 复写init函数，findViewById找到自己添加的控件。
 
-### 根据自己的需要操作控件
+### 操作控件
 
-根据自己的需要，复写各个状态的函数
+根据自己的需要，复写进入状态的函数，代码中应该是不厌其烦的分别控制每个状态的控件，这样做思路清晰，不会出现遗漏。
 
 1. onStateNormal
 2. onStatePreparing
@@ -30,3 +30,4 @@
 8. onStateAutoComplete
 
 上述State的含义[点此](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81#%E7%BB%A7%E6%89%BFjcvideoplayerstandard%E5%A4%8D%E5%86%99%E7%9A%84%E5%87%BD%E6%95%B0)
+
