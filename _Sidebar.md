@@ -37,6 +37,6 @@
   -[取得新控件的引用](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89UI#%E5%8F%96%E5%BE%97%E6%96%B0%E6%8E%A7%E4%BB%B6%E7%9A%84%E5%BC%95%E7%94%A8)
   -[操作控件](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89UI#%E6%93%8D%E4%BD%9C%E6%8E%A7%E4%BB%B6)
 
-- [自定义UI示例](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89UI)
+- [自定义UI示例](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89UI%E7%A4%BA%E4%BE%8B)
 
 [常见问题](https://github.com/lipangit/JieCaoVideoPlayer/wiki/常见问题)
