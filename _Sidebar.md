@@ -16,6 +16,7 @@
   - [RecycleView](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE#4-recycleview%E7%9A%84%E5%88%97%E8%A1%A8%E6%92%AD%E6%94%BE%E5%8F%82%E8%80%83demo%E7%9A%84recyclerviewvideoadapterjava)
 
 [小窗播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E5%B0%8F%E7%AA%97%E6%92%AD%E6%94%BE)
+
 [直接全屏播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E7%9B%B4%E6%8E%A5%E5%85%A8%E5%B1%8F%E6%92%AD%E6%94%BE)
 
 [API]()
