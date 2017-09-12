@@ -19,8 +19,8 @@
 
 [直接全屏播放](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E7%9B%B4%E6%8E%A5%E5%85%A8%E5%B1%8F%E6%92%AD%E6%94%BE)
 
-[API]()
-  - [A1]()
+[API](https://github.com/lipangit/JiaoZiVideoPlayer/wiki/API%E7%9A%84%E4%BD%BF%E7%94%A8)
+  - [播放进度的保存]()
 
 [自定义代码](https://github.com/lipangit/JieCaoVideoPlayer/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81)
   
