@@ -23,7 +23,7 @@
 
 ## 工作分流
 
-* 群管理，管理和群有关的一切事情
+* 群管理，管理群成员，整理群文件，宣传微信群等工作
   * [熊晓清](http://blog.csdn.net/yaya_xiong) QQ:137048616
   * [Lionet](https://github.com/Lionet6?tab=repositories) QQ:2950527715
   * [montauk](https://github.com/hanmeimei888) QQ:958489121
