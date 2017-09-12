@@ -1,0 +1,1 @@
+- [播放进度的保存](https://github.com/lipangit/JiaoZiVideoPlayer/issues/1230)
