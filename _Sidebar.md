@@ -1,5 +1,7 @@
 [首页](https://github.com/lipangit/JieCaoVideoPlayer/wiki#1)
 
+[视频教程](https://github.com/lipangit/JiaoZiVideoPlayer/wiki/%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B)
+
 [QuickStart](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart)
 
   - [gradle引用](https://github.com/lipangit/JieCaoVideoPlayer/wiki/QuickStart#1-%E6%B7%BB%E5%8A%A0gradle%E5%BC%95%E7%94%A8)
