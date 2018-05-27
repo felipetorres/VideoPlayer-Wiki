@@ -1,55 +1,11 @@
-节操视频播放器是一个让开发者可以三两行代码就能集成到应用中的视频播放框架，并且提供了开放的接口来满足不同开发者的不同需求。
+# Welcome
 
-## 沟通方式
-* 以issue为主，紧急的QQ微信提醒一下
-* Q群:490442439 验证信息:jcvd
-* 管理员请务必进入微信群，讨论项目的管理，群主咨询，任务发布，找QQ群管理进微信群
+JiaoZiVideoPlayer is a video playback framework that be easily integrated into an application using a few lines of code and provides an open interface to meet the different needs of different developers.
 
+Please refer to the sidebar on the right for Quick Start, Documentation and other details.
 
-## 工作分流
+## Rewards and consulting
 
-- #### 群管理
+This project is dedicated to the integration of small and medium video playback app, greatly reducing the cost of development. If you save tons of time, we suggest a retail price of 500 yuan. (It's not expensive, get a two-year project worth more than that).
 
-首先应是群内活跃成员，工作内容：管理群成员，整理群文件，宣传微信群等
-
-- #### 问题解答
-
-主要工作是耐心帮助新手入门，了解库的使用，工作内容：每周至少回答两次网友的问题，每周至少解决一个issue，和管理陈旧的issue
-
-- #### wiki整理
-
-老臣写作能力一般，表达能力不强，想用库的人很难从wiki获得有效的帮助，现在的wiki没法看，需要高人指点
-
-- #### 发版
-
-发版有一套流程
-
-
-## 任务发布
-
-老臣水平有限，希望能获得大家的帮助，为了更直观，更准确的判断代码的有效，希望朋友们能提交pull request，有直接能看到效果的demo
-
-- #### 功能
-
-1. 播放器静音，系统有声音
-
-- #### bug
-
-- #### 难题
-
-1. 完美监听列表滑动，准确监听Item滑动出界面和滑入界面
-2. 列表中播放时会频繁调用Adapter的getView，如何解决
-
-## 人员级别 向下兼容
-
-* 传说 实力很强，影响了项目的发展
-* 话痨 贡献过核心代码或者主要功能
-* 活跃 贡献bug修改
-* 吐槽 解决回答网友们常见的使用问题
-* 冒泡 活跃成员
-
-## 打赏和咨询
-
-这项目是专门给中小app集成视频播放的，极大降低开发成本，如果给您节省了成吨的时间，建议零售价:打赏500元。(不贵吧兄弟们，弄了两年的项目不比女主播唱首歌值钱吧)
-
-![打赏](https://user-images.githubusercontent.com/2038071/29978804-45c321ba-8f75-11e7-9040-776d3b6dca1f.jpg)
+![Reward](https://user-images.githubusercontent.com/2038071/29978804-45c321ba-8f75-11e7-9040-776d3b6dca1f.jpg)

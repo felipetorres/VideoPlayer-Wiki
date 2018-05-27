@@ -1,65 +1,103 @@
-#### 1. 添加gradle引用
+### 1. build.gradle
+
+Add this dependency in `build.gradle`:
 
 ```gradle
 compile 'cn.jzvd:jiaozivideoplayer:x.x.x'
 ```
 
-不建议修改库或者引入jar、aar等其他引用方式，因为咱们这个库基本两个礼拜会发一个版本，或者改bug，或者加功能，如果改库的话升级会很麻烦，继承JCVideoPlayerStandard几乎可以满足几乎所有的改功能和改UI的需求。
+> *For Android Studio 3+ the compile function has been deprecated. You should use `implementation` or `api`. Check the [new dependency configurations in Android documentation](https://developer.android.com/studio/build/gradle-plugin-3-0-0-migration#new_configurations) for more details.*
 
-#### 2. 添加布局
+Changing the library or introducing other reference methods (such as jar, aar) is not recommended because updates to this library are done approximately every two weeks with bug fixes and new features. If you change the library locally, your update will be very problematic. The `JZVideoPlayerStandard` class can serve virtually any needs to change methods and user interface.
+
+
+### 2. layout.xml
+
+In your `layout.xml` file, add the `cn.jzvd.JZVideoPlayerStandard` view that represents the video player itself:
 
 ```xml
-<fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+<cn.jzvd.JZVideoPlayerStandard
     android:id="@+id/videoplayer"
     android:layout_width="match_parent"
     android:layout_height="200dp"/>
 ```
 
-可以在任何布局里添加，宽度和高度也可以自己定义成任何数值，也可以改成[特定的比例](http://github.com)，无论高宽如何变化，图像都会是居中的，并且高或宽至少两个边充满全屏，如果视频的长宽比例和屏幕的长宽比例不同，就会有黑边，可以复写onVideoSizeChanged函数，修改textureView的大小消除黑边，如果有条件的话可以固定视频源和控件的比例都是16:9或者4:3，这样会更方便。
+You can change its height and width or define a specific aspect ratio. Regardless of the dimensions of this view, the image will be centered, but if the aspect ratio between video and view are different, there will be black borders.
 
-#### 3. 设置视频地址、缩略图地址、标题
+To avoid this problem, you can programatically set the player to fit the dimensions of the view, but there will be some distortion in the image (it will be "stretched" or "cut" in some dimension).
+
+> *Take a look at [this activity in demo project](https://github.com/lipangit/JiaoZiVideoPlayer/blob/develop/app/src/main/java/cn/jzvd/demo/ActivityApiRotationVideoSize.java) for more details.*
+
+### 3. Initializing VideoPlayer
+
+Get a `VideoPlayer` instance from your layout:
 
 ```java
-JCVideoPlayerStandard jcVideoPlayerStandard = (JCVideoPlayerStandard) findViewById(R.id.videoplayer);
-jcVideoPlayerStandard.setUp("http://2449.vod.myqcloud.com/2449_22ca37a6ea9011e5acaaf51d105342e3.f20.mp4"
-                            , JCVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "嫂子闭眼睛");
-jcVideoPlayerStandard.thumbImageView.setImage("http://p.qpic.cn/videoyun/0/2449_43b6f696980311e59ed467f22794e792_1/640");
+JZVideoPlayerStandard jzVideoPlayerStandard = 
+            (JZVideoPlayerStandard) findViewById(R.id.videoplayer);
 ```
 
-- 第一行是取得控件实例，用代码new新的实例也可以，然后是setUp函数，设置控件播放时所需的参数，第一个参数表示播放的地址，如果有多个播放地址也可以把播放地址放到map中(可以参照ApiActivity)
-- 第二行参数表示控件使用的位置，分别是普通、列表、全屏、小窗，最后一个参数是Oject[]数组，存放其他可能用到的数据，比如播放量，视频的分类信息等，默认只有标题
-- 最后一行是设置缩略图，ImageView本来并没有setImage函数，这个函数只是告诉大家可以满足设置缩略图的需要，根据自己项目中的图片加载框架设置缩略图，参照demo的ApiActivity，有ImageLoader、Glide等例子
+Initialize this instance passing 3 arguments:
+ - Video Url
 
-#### 4. 在包含播放控件的Activity中加入如下代码
+ - Player screen position: `SCREEN_WINDOW_NORMAL`, `SCREEN_WINDOW_LIST`, `SCREEN_WINDOW_FULLSCREEN` or `SCREEN_WINDOW_TINY`.
+
+ - Video title
+
+ > *The video title parameter is an `Object...` which stores other data that may be passed to `VideoPlayer` instance such as the amount of play, video classification information, etc.*
+
+```java
+jzVideoPlayerStandard.setUp("http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4", 
+                            JZVideoPlayerStandard.SCREEN_WINDOW_NORMAL, 
+                            "Video title");
+```
+
+Set the video thumbnail. As imageView doesn't have `setImage` method, this pseudo-code function just represents **your picture loading strategy** which can use any common library as ImageLoader, Glide, Picasso.
+
+```java
+jzVideoPlayerStandard
+            .thumbImageView
+            .setImage("http://p.qpic.cn/videoyun/0/2449_43b6f696980311e59ed467f22794e792_1/640");
+```
+
+> *Take a look at [this activity in demo project](https://github.com/lipangit/JiaoZiVideoPlayer/blob/develop/app/src/main/java/cn/jzvd/demo/ActivityApi.java) for more details.*
+
+### 4. Integration with Activity lifecycle
 
 ```java
 @Override
 public void onBackPressed() {
-    if (JCVideoPlayer.backPress()) {
+    if (JZVideoPlayer.backPress()) {
         return;
     }
     super.onBackPressed();
 }
+
 @Override
 protected void onPause() {
     super.onPause();
-    JCVideoPlayer.releaseAllVideos();
+    JZVideoPlayer.releaseAllVideos();
 }
 ```
 
-- backPress函数判断了点击回退按钮的相应，如果全屏会退出全屏播放，如果不是全屏则会交给Activity
-- 当Activity的生命周期进入onPause之后会releaseAllVideos，因为我们设定当用户退出当前Activity或者按Home键之后会视频就会release。也可以参照网上朋友给的[代码](https://github.com/lipangit/JieCaoVideoPlayer/issues/1122#issuecomment-321146486)，退出之后还能继续播放。
+The `backPress` method checks if back button was touched. If the `videoPlayer` was in fullscreen mode it will exit full screen playback. Otherwise it will close the activity.
 
-这些代码只需要在Activity的生命周期使用，如果是Fragment和ViewPaver等嵌套，不需要复写Fragment的onPause函数，也只需要复写包含播放控件的Fragment的Activity的onPause和onBackPressed函数。
+When the activity's lifecycle enters `onPause`, it should call `releaseAllVideos`, because we set the video to be released when the user exits the current Activity or press the home button.
 
-#### 5. 包含控件的Activity在Manifest中的设置
+> *This code only needs to be used during the activity's lifecycle. If `VideoPlayer` is in a Fragment or ViewPager you don't need to overwrite the Fragment's `onPause` function. You only need to overwrite `onPause` and `onBackPressed` functions of the Activity that contains the Fragment that plays the control.*
+
+> *If you need the playback playing after you close activity, you can refer to this [code](https://github.com/lipangit/JiaoZiVideoPlayer/issues/1122#issuecomment-321146486) given by a friend.*
+
+### 5. AndroidManifest.xml
 
 ```xml
 <activity
     android:name=".MainActivity"
     android:configChanges="orientation|screenSize|keyboardHidden"
-    android:screenOrientation="portrait" /> <!-- or android:screenOrientation="landscape"-->
+    android:screenOrientation="portrait" />
+    <!-- or android:screenOrientation="landscape"-->
 ```
-- android:configChanges 保证了在全屏的时候横竖屏切换不会执行Activity的相关生命周期，打断视频的播放
-- android:screenOrientation 固定了屏幕的初始方向，可以参照demo中JCVideoPlayer.FULLSCREEN_ORIENTATION和JCVideoPlayer.NORMAL_ORIENTATION两个变量的使用，这两个变量控制全屏后和退出全屏的屏幕方向
 
+`android:configChanges` avoids Activity lifecycle execution when rotating screen (which would interrupts video playback).
+
+`android:screenOrientation` sets the initial screen orientation. It can be setted programatically using `JZVideoPlayer.FULLSCREEN_ORIENTATION` and `JZVideoPlayer.NORMAL_ORIENTATION`
