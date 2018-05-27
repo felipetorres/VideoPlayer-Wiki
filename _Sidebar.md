@@ -19,8 +19,6 @@
 
 [[Direct fullscreen playback]]
 
-[[API]]
-
 [[Customizing Code]]
   - [Three important things to know](/wiki/Customizing-Code#three-important-things-to-know)
   - [JZVideoPlayerStandard lifecycle](/wiki/Customizing-Code#JZVideoPlayerStandard-lifecycle)
@@ -30,5 +28,7 @@
   - [Modifying xml](/wiki/Custom-UI#modifying-xml)
   - [Getting a reference to the new layout](/wiki/Customizing-UI#getting-a-reference-to-the-new-layout)
   - [Using new control](/wiki/Custom-UI#using-new-control)
+
+[[Cookbook]]
 
 [[Common problems]]
