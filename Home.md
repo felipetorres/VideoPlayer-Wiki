@@ -1,5 +1,3 @@
-# Welcome
-
 JiaoZiVideoPlayer is a video playback framework that be easily integrated into an application using a few lines of code and provides an open interface to meet the different needs of different developers.
 
 Please refer to the sidebar on the right for Quick Start, Documentation and other details.
