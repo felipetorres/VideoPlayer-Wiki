@@ -14,6 +14,7 @@
   - [[MultiHolder + ListView | VideoPlayer-on-RecyclerView-and-ListView#RecyclerView#4-multiholder--listview]]
 
 **[[Playing on small window]]**
+
 **[[Direct fullscreen playback]]**
 
 **[[Customizing Code]]**
